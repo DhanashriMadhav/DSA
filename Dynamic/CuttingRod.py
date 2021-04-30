@@ -1,4 +1,4 @@
-in = -32767
+min = -32767
  
 def cutRod(price, n):
     val = [0 for x in range(n+1)]
@@ -13,5 +13,5 @@ def cutRod(price, n):
  
 size = int(input("enter the size of array"))
 arr = [int(input("enter the proces")) for each in range(size)]
-maxprice = (cutRod(arr, size)}
+maxprice = (cutRod(arr, size))
 print("Maximum price is ",maxprice )
