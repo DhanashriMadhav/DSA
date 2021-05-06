@@ -1,4 +1,4 @@
-
+//remove a specific digit from every element ofthe list
 size = int(input("enter the size of the array"))
 arr = [int(input("enter the elemet")) for each in range(size)]
  
